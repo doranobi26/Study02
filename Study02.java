@@ -1,5 +1,3 @@
-Study02.java
-
 class Study02 {
   public static void main(String[] args) {
     //falseとなるようにする
@@ -56,7 +54,7 @@ class Study02 {
         break;
     }
 
-
+    int people = 13;
 
     switch (people % 100) {
       case 0:
@@ -77,8 +75,8 @@ class Study02 {
     
     //繰り返し処理
     while (z > 10) {
-      System.out.println(number);
-      number--;
+      System.out.println(z);
+      z--;
     }
 
 
@@ -119,7 +117,9 @@ class Study02 {
 
     System.out.println(members[2]);
 
-    String[] m = {"白石麻衣", "松村沙友理", "加藤史帆"};
+
+
+    String[] ms = {"白石麻衣", "松村沙友理", "加藤史帆"};
 
 
     for(int i=0;i<ms.length;i++){
